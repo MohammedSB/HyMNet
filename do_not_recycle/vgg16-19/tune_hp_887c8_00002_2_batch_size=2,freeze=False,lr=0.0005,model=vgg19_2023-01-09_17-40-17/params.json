@@ -1,7 +1,0 @@
-{
-  "batch_size": 2,
-  "epochs": 20,
-  "freeze": false,
-  "lr": 0.0005,
-  "model": "vgg19"
-}
