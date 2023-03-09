@@ -1,0 +1,7 @@
+{
+  "batch_size": 4,
+  "epochs": 20,
+  "freeze": false,
+  "lr": 5e-05,
+  "model": "densenet201"
+}

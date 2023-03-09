@@ -1,0 +1,8 @@
+{
+  "batch_size": 4,
+  "epochs": 10,
+  "freeze": true,
+  "lr": 0.0005,
+  "model": "resnet152",
+  "with_mlp": false
+}

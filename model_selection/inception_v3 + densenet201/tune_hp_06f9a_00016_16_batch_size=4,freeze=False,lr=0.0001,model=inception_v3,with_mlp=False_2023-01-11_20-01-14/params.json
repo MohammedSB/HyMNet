@@ -1,0 +1,8 @@
+{
+  "batch_size": 4,
+  "epochs": 10,
+  "freeze": false,
+  "lr": 5e-05,
+  "model": "inception_v3",
+  "with_mlp": false
+}

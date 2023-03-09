@@ -1,0 +1,5 @@
+{
+  "batch_size": 4,
+  "learning_rate": 1e-07,
+  "model": "vgg16"
+}

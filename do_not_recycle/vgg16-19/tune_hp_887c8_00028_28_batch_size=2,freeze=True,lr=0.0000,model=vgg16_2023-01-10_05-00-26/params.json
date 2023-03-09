@@ -1,0 +1,7 @@
+{
+  "batch_size": 2,
+  "epochs": 20,
+  "freeze": true,
+  "lr": 1e-05,
+  "model": "vgg16"
+}

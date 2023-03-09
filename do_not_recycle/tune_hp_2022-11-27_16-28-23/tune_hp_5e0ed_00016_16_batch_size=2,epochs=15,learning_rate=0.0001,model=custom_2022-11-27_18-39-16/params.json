@@ -1,0 +1,6 @@
+{
+  "batch_size": 2,
+  "epochs": 15,
+  "learning_rate": 5e-05,
+  "model": "custom"
+}
