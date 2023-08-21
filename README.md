@@ -6,7 +6,11 @@ HyMNet needs three inputs: (1) a fundus image, (2) age, and (3) sex (male/female
 
 Below is sample code for how to get a classification from the model.
 
-First clone the github repository. Then:
+First clone the github repository and install the requirements.
+```
+pip install -r requirements.txt
+```
+To load the model see the sample below.
 ```python
 import torch
 from HyMNet import HyMNet
