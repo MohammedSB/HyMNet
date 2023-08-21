@@ -24,7 +24,15 @@ prediction = torch.nn.Sigmoid()(prediction_logit)
 
 If you want to use the function based implementation of the model (along with all the utilites in this repository), see reference code in `Utils.ipynb`, `Blacksmith.ipynb`, and `FusionModels`.
 
-## Download pretrained HyMNet weights
+## Pretrained HyMNet weights
+To download the pretrained weights for HyMNet, click on the button below.
+
 [[`Click me to download`]](https://drive.google.com/uc?export=download&id=1Np3QJIAKS1LOo_RwL6lLFWRdyC4ItIB1)
+
+For accessing the weights for the other models in the paper, take a look at the `Models` folder.
+## Reference
+If you find this repository useful for your work, please cite using the citation below:
+
+"TBA"
 
 This is my work done in collaboration with Dr. Abdulrhman Aljouie as an intern at King Abdullah International Medical Research Center (KAIMRC).
