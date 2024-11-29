@@ -48,6 +48,12 @@ state_dict = torch.load("JointFusion_finetune.pth") # you have to download the m
 state_dict = {key.replace("module.", ""): value for key, value in state_dict.items()}
 model.load_state_dict(state_dict)
 
+image = <load_the_image> # pytorch tensor
+features = torch.tensor([50, 1]) # 50 year old, male
+
+output = model(image, features)
+prob = nn.Sigmoid()(output.squeeze())
+prediction = prob > 0.5 # HTN if 1, 0 otherwise
 ```
 
 If you want to use the function based implementation of the model (along with all the utilites in this repository), see reference code in `Utils.ipynb`, `Blacksmith.ipynb`, and `FusionModels.ipynb`.
