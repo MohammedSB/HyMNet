@@ -56,7 +56,7 @@ prob = nn.Sigmoid()(output.squeeze())
 prediction = prob > 0.5 # HTN if 1, 0 otherwise
 ```
 
-If you want to use the function based implementation of the model (along with all the utilites in this repository), see reference code in `Utils.ipynb`, `Blacksmith.ipynb`, and `FusionModels.ipynb`.
+If you want to use the function based implementation of the model (along with all the utilites in this repository), see reference code in `Utils/Utils.py`, `Utils/Blacksmith.py`.
 
 ## Pretrained HyMNet weights
 To download the pretrained weights for HyMNet as well as all the other models in the study, click on the button below.
